@@ -28,3 +28,13 @@ The directory structure is as follows.
         SampleTool.Tests.csproj
         UnitTest1.cs
 ```
+
+## Taskfile.yml
+
+Since Taskfile.yml is generated, you can use [Task](https://taskfile.dev/) to execute `task run`, `task build`, `task publish`, etc.
+
+
+
+
+
+
