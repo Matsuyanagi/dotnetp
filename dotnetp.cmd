@@ -32,9 +32,6 @@ dotnet sln %solution_name%.sln add %test_project_name%
 pushd %project_name%.Tests
 dotnet add reference ../%project_name%/%project_name%.csproj
 popd
-::	"dotnet-test-explorer.testProjectPath": "**/*Tests.csproj" ��ݒ�
-
-call initg.cmd
 
 (
 echo version: '3'
